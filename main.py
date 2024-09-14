@@ -51,7 +51,7 @@ def check_opt():
     if opt == dic[st.session_state.choiced_word]:
         st.session_state.count_corr += 1
         st.session_state.choiced_word = choice(eng)
-        if st.session_state.count_corr==2:
+        if st.session_state.count_corr==5:
             is_r = False
             with st.expander("extra savol"):
                 st.write("jumlani davom ettir")
